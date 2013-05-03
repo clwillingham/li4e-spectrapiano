@@ -1,0 +1,4 @@
+{
+    "lights": "/dev/ttyACM0",
+    "midi": "/dev/midi1"
+}

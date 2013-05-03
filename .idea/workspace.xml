@@ -18,7 +18,10 @@
     <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/html5/xhtml5.xsd" changelist="0b46e804-3db9-48ef-838f-c57d637ffcbc" time="1366573563766" ignored="false" />
     <file path="/app.js" changelist="0b46e804-3db9-48ef-838f-c57d637ffcbc" time="1366575478898" ignored="false" />
     <file path="/listener.js" changelist="0b46e804-3db9-48ef-838f-c57d637ffcbc" time="1367029136598" ignored="false" />
-    <file path="/lightsTest.js" changelist="0b46e804-3db9-48ef-838f-c57d637ffcbc" time="1367089555778" ignored="false" />
+    <file path="/lightsTest.js" changelist="0b46e804-3db9-48ef-838f-c57d637ffcbc" time="1367468338309" ignored="false" />
+    <file path="/pureJSTest.js" changelist="0b46e804-3db9-48ef-838f-c57d637ffcbc" time="1367545075695" ignored="false" />
+    <file path="/main.js" changelist="0b46e804-3db9-48ef-838f-c57d637ffcbc" time="1367537531072" ignored="false" />
+    <file path="/settings.json" changelist="0b46e804-3db9-48ef-838f-c57d637ffcbc" time="1367542216920" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +59,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lightsTest.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="lightsTest.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lightsTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="0" selection-start="2620" selection-end="2663" vertical-scroll-proportion="0.35096154">
+            <state line="36" column="0" selection-start="629" selection-end="1118" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serialport.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/serialport/serialport.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="31" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="36" selection-start="1784" selection-end="1784" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rbcreation.ino" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rbcreation/rbcreation.ino">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="1" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.8997773">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="27" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.WebStorm6/system/extLibs/nodejs-v0.10.1-src/core-modules-sources/lib/module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="337" column="14" selection-start="9525" selection-end="9525" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="midi.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../node_modules/midi-js/midi.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="12" selection-start="12" selection-end="25" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -78,6 +135,10 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/listener.js" />
         <option value="$PROJECT_DIR$/lightsTest.js" />
+        <option value="$PROJECT_DIR$/pureJSTest.js" />
+        <option value="$PROJECT_DIR$/settings.json" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/rbcreation/rbcreation.ino" />
       </list>
     </option>
   </component>
@@ -113,6 +174,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -131,9 +193,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="midiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="midiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbcreation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,7 +219,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Node.js.lightsTest.js">
+  <component name="RunManager" selected="Node.js.main.js">
     <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$USER_HOME$/.nvm/v0.10.1/bin/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
@@ -162,6 +237,11 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
+    <configuration default="false" name="main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$USER_HOME$/.nvm/v0.10.1/bin/node" path-to-js-file="main.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -173,16 +253,18 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.listener.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.lightsTest.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.main.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.lightsTest.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.listener.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.main.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.lightsTest.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.listener.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
   </component>
@@ -278,20 +360,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="42" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listener.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="33" selection-start="0" selection-end="1093" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lightsTest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="23" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0">
@@ -348,6 +416,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.WebStorm6/system/extLibs/nodejs-v0.10.1-src/core-modules-sources/lib/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="337" column="14" selection-start="9525" selection-end="9525" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../node_modules/midi-js/midi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="25" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/listener.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="14" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
@@ -357,7 +439,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lightsTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="0" selection-start="2620" selection-end="2663" vertical-scroll-proportion="0.35096154">
+        <state line="36" column="0" selection-start="629" selection-end="1118" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/serialport/serialport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="31" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="27" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="36" selection-start="1784" selection-end="1784" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbcreation/rbcreation.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="1" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.8997773">
           <folding />
         </state>
       </provider>

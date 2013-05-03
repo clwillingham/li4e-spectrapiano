@@ -23,7 +23,7 @@ midiOut = new midi.output();
 
 console.log(midiIn.getPortCount());
 
-console.log('Listening on: ' + midiIn.getPortName(0));
+console.log('Listening on: ' + midiIn.getPortName(1));
 
 function parseMsg(message){
     var cmd = message[0];
@@ -96,13 +96,16 @@ midiIn.on('message', function(deltaTime, message) {
             }
             var noteToSend = avgNote();
             serialPort.write(String.fromCharCode(noteToSend.note) + String.fromCharCode(noteToSend.velocity)+'\n');
+            notesPressed = [];
         }
+    }else if(msg == 0x80){
+        releaseNote(message[1]);
+        serialPort.write(String.fromCharCode(message[1]) + String.fromCharCode(0))
     }
     if (msg === messages.stop) {
         return closeMidiPort();
     }
 });
-
 function strEndsWith(str, suffix) {
     return str.match(suffix+"$")==suffix;
 }

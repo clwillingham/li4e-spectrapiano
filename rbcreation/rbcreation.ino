@@ -41,6 +41,7 @@ void cmd(String line){
   byte note = line[0];
   byte velocity = line[1];
   int brightness = map(velocity, 0, 130, 0, 90);
+//  int octave = map(note, 21, 108, 0, 20);
   int hue = map(note, 21, 108, 0, 359);
   int saturation = 99;
   int rgb[3];
